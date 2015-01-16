@@ -59,8 +59,8 @@
 	  function onPlayerStateChange(event) {
 		if (event.data == 1) {
 		  	setTimeout(function(){top_image.style.display = "none";}, 600);
-		}
-	  }
+		}  	
+	}
 
 	  function onPlayerReady(event) {
 		if (!window.mobilecheck()) {
@@ -70,8 +70,8 @@
 		} else {
 			top_image.style.display = "none";
 			player.cuePlaylist(['9JVYEVrCI8g','0ahFVVURjqU', '-fuCradXBj8', 'KQfFAl63uas']);
+			//player.seekTo(1);
 		}
-		
 	  }
 
 	</script>
